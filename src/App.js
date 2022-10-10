@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Counter from "./components/counter/Counter";
+import UseEffectDemo from "./components/use-effect-demo/useEffectDemo";
 import useLocalStorage from "./useLocalStorage";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
                 onChange={e => setName(e.target.value)}
             />
             <Counter />
+            <UseEffectDemo />
         </>
     );
 }

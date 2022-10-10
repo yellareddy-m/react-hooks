@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function countInitialState() {
-    console.log('run function');
+    console.log('get initial state from function for useState hoook');
     return 4;
 }
 
